@@ -1,0 +1,14 @@
+.UserCard {
+    background-color: darkblue;
+    color: white;
+    padding: 3px 10px;
+    margin: 4px;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 1px 2px 6px black;
+    transition: 0.2s;
+}
+
+.UserCard:hover {
+    transform: scale(1.1);
+}
