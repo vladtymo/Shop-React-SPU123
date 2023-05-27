@@ -8,6 +8,7 @@ import { ProductList } from './components/ProductList';
 import { Route, Routes } from 'react-router-dom';
 import { Menu } from './components/Menu';
 import { Layout } from './components/Layout';
+import AddProduct from './components/AddProduct';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route index element={<h1>Main Page!</h1>} />
         <Route path='users' element={<UserList users={USERS} />} />
         <Route path='products' element={<ProductList />} />
+        <Route path='add-product' element={<AddProduct />} />
         <Route path='counter' element={<Counter />} />
         <Route path='*' element={<h1>Not Found Page!</h1>} />
       </Route>

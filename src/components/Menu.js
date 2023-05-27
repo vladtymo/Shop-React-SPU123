@@ -6,6 +6,7 @@ export function Menu() {
             <Link to="/">Home</Link>
             <Link to="users">Users</Link>
             <Link to="products">Products</Link>
+            <Link to="add-product">Create</Link>
             <Link to="counter">Counter</Link>
             <Link to="about">About</Link>
         </nav>

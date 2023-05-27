@@ -2,3 +2,23 @@ main {
   width: 90%;
   margin: auto;
 }
+
+
+.AddProduct h2 {
+  text-align: center;
+}
+.AddProduct form {
+  margin: auto;
+  width: 45%;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.AddProduct form input {
+  width: 100%;
+}
+.AddProduct form input[type="checkbox"] {
+  width: auto;
+}
