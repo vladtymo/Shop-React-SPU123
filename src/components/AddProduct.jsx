@@ -4,7 +4,7 @@ const api = 'https://localhost:7070/api/products/test-create';
 
 export default function AddProduct() {
 
-    const { register, handleSubmit   } = useForm();
+    const { register, handleSubmit } = useForm();
 
     const onCreate = (product) => {
         console.log("Creating a product...");

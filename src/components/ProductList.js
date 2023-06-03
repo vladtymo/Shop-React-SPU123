@@ -10,6 +10,7 @@ let pagination = {
 
 export function ProductList() {
 
+    const products2 = [];
     let [products, setProducts] = useState([]);
 
     useEffect(() => {
